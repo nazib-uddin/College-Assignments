@@ -1,0 +1,26 @@
+
+' Mohammed Nazib Uddin
+
+' Turning three LEDs on and off like a traffic light
+
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+
+
+DO
+
+HIGH 14
+PAUSE 30000
+LOW 14
+PAUSE 500
+HIGH 13
+PAUSE 30000
+LOW 13
+PAUSE 500
+HIGH 12
+PAUSE 30000
+LOW 12
+PAUSE 500
+
+
+LOOP
